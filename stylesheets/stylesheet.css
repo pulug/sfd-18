@@ -492,7 +492,7 @@ hr{
   justify-content: space-around;
 }
 #sponsor .wow{
-  margin: 30px !important;
+  margin: 60px !important;
 }
 @media (max-width:768px) {
   #sponsor{

@@ -20,8 +20,9 @@ body,html{
 	font-size: 100%;
 }
 .heading{
-	background: rgba(34,34,34,0.8);
-
+	background: #283048;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /*body*/
 body{
@@ -394,6 +395,19 @@ nav #navbarSupportedContent ul li a:hover{
 	background: #fff;
 	text-align: center;
 
+}
+#day .tab-content{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+}
+#day .tab-content .col-sm-4,.col-sm-8{
+	background-color: #F9B93D;
+	padding-top: 15px;
+}
+#day .row{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F9B93D;
 }
 #schedule div{
 	/*padding:20px;*/

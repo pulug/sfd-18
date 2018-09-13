@@ -4,10 +4,10 @@
 	border-radius: 50%;
 	position: relative;
 	cursor: default;
-	box-shadow: 
+	box-shadow:
 		inset 0 0 0 16px rgba(255,255,255,0.6),
 		0 1px 2px rgba(0,0,0,0.1);
-		
+
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -15,41 +15,48 @@
 	transition: all 0.4s ease-in-out;
 }
 
-.ch-img-1 { 
+.ch-img-1 {
 	background-image: url(../images/JoeNash.jpg);
+	background-size: cover;
 }
 
-.ch-img-2 { 
+.ch-img-2 {
 	background-image: url(../images/KhushbuParakh.jpeg);
+	background-size: cover;
 }
 
-.ch-img-3 { 
+.ch-img-3 {
 	background-image: url(../images/Janu_Verma.jpg);
+	background-size: cover;
 }
 .ch-img-8 {
 	background-image: url(../images/rsz_1ashish-bansal.jpg);
+	background-size: cover;
 }
 .ch-img-4 {
 	background-image: url(../images/rsz_ls_chhabra.jpg);
+	background-size: cover;
 }
 .ch-img-5 {
-	background-size: 226px 226px;
 	background-image: url(../images/Jigyasa_grover.jpg);
+	background-size: cover;
 }
 .ch-img-6 {
-	background-image: 220px 220px;
-	background-image: url(../images/rsz_2puneet_jain.jpg);
+	background-image: url(../images/Puneet_jindal.jpg);
+	background-size: cover;
 }
 .ch-img-7 {
-	background-image: url(../images/rsz_2punit_chawla.jpg);
+	background-image: url(../images/Punit_Chawla.jpg);
+	background-size: cover;
 }
 
 .ch-img-9 {
-	background-size: 220px 220px;
 	background-image: url(../images/rsz_2ashish_jangra.jpg);
+	background-size: cover;
 }
 .ch-img-10 {
 	background-image: url(../images/rsz_1sanyam_khurana.jpg);
+	background-size: cover;
 }
 .ch-info img{
 	height:25px !important;
@@ -61,19 +68,19 @@
 	height: inherit;
 	border-radius: 50%;
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-	
+
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
 	-o-transform: scale(0);
 	-ms-transform: scale(0);
 	transform: scale(0);
-	
+
 	-webkit-backface-visibility: hidden;
 
 }
@@ -87,8 +94,8 @@
 	padding: 45px 0 0 0;
 	height: 140px;
 	font-family: 'Open Sans', Arial, sans-serif;
-	text-shadow: 
-		0 0 1px #fff, 
+	text-shadow:
+		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
 }
 
@@ -126,7 +133,7 @@
 }
 
 .ch-item:hover {
-	box-shadow: 
+	box-shadow:
 		inset 0 0 0 1px rgba(255,255,255,0.1),
 		0 1px 2px rgba(0,0,0,0.1);
 }

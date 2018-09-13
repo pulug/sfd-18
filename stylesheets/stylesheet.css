@@ -491,7 +491,7 @@ hr{
   flex-wrap: wrap;
   justify-content: space-around;
 }
-#sponsor .wow{
+#sponsor .partner-image{
   margin: 60px !important;
 }
 @media (max-width:768px) {
